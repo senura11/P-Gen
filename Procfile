@@ -1,1 +1,1 @@
-web: python p-gen.py:app
+web: gunicorn p-gen:app
